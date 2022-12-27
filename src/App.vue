@@ -18,7 +18,7 @@ html {
 }
 body {
   height: 100vh;
-  margin-top: 10em;
+  margin-top: 6em;
 }
 ul {
   list-style: none;

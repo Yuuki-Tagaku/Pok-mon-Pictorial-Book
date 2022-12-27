@@ -4,9 +4,21 @@ import TheList from "../modules/TheList.vue";
 
 <template>
   <div>
-    <router-link to="/">back</router-link>
+    <div class="back_link">
+      <div>
+        <router-link to="/">Back</router-link>
+      </div>
+      <div>
+        <router-link to="/profile">profile</router-link>
+      </div>
+    </div>
     <TheList />
   </div>
 </template>
 
-<style></style>
+<style>
+.back_link {
+  text-align: right;
+  margin-right: 1em;
+}
+</style>

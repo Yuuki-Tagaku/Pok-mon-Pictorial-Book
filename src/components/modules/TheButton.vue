@@ -3,7 +3,6 @@
 </template>
 
 <script>
-export default {};
 </script>
 
 <style>
@@ -15,5 +14,6 @@ export default {};
   background-color: dodgerblue;
   border-radius: 10px;
   text-align: center;
+  text-decoration: none;
 }
 </style>
