@@ -1,4 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import axios from "axios";
+import { ref } from "vue";
+
+const profile = ref<{ name: string; favorite: string; free: string }>();
+
+const baseURL = "";
+
+const getProfile = () => {
+  axios.get(baseURL).then((res: any) => {
+    if (res && res.data) {
+      console.log(res);
+    }
+  });
+};
+
+getProfile();
+</script>
 
 <template>
   <div class="back_link">
